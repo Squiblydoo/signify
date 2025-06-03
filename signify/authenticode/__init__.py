@@ -1,6 +1,7 @@
 from .authroot import AUTHROOTSTL_PATH, CertificateTrustList, CertificateTrustSubject
 from .signed_pe import SignedPEFile
 from .signed_msi import SignedMsiFile
+from .raw_cert import RawCertificateFile
 from .structures import (
     CERTIFICATE_LOCATION,
     TRUSTED_CERTIFICATE_STORE,
@@ -31,5 +32,6 @@ __all__ = [
     "RFC3161SignerInfo",
     "SignedPEFile",
     "SignedMsiFile",
+    "RawCertificateFile",
     "TSTInfo",
 ]
